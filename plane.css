@@ -1,0 +1,16 @@
+.plane {
+    height: var(--plane-height);
+    width: var(--plane-width);
+    position: absolute; top: 50%;
+    left: 50%; transform: translate(-50%, -50%);
+}
+
+.plane_body {
+    height: 40%; width: 36%; bottom: 20%; left: 10%;
+}
+
+.plane_floater {
+    position: absolute; width: var(--plane-width);
+    height: var(--plane-width); top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
